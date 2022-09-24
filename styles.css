@@ -1,5 +1,6 @@
 *{
     font-size: 1.6rem;
+    border: 2px solid red;
 }
 
 body {
@@ -49,6 +50,8 @@ p.welcome-line {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: block;
+    background-color: black;
 }
 
 a {
@@ -63,6 +66,7 @@ a {
     float: left;
     padding: .8rem;
     font-color: black;
+    padding: 8px;
 }
 
 .managers {

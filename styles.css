@@ -47,13 +47,26 @@ p.welcome-line {
 
 }
 
-.header-bar {
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    display: block;
     background-color: black;
+}
+
+.home-logo img {
+    width: 100px;
+    border-radius: 50%;
 }
 
 a {
@@ -64,11 +77,12 @@ a {
     color: white;
 }
 
-.header-bar > li {
+.nav-links > li {
     float: left;
-    padding: .8rem;
-    font-color: rgb(3, 180, 250);
-    padding: 8px;
+    padding: 3.6rem 3rem;
+    flex: 1;
+    margin: auto;
+
 }
 
 .managers {

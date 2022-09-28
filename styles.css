@@ -150,7 +150,6 @@ a {
     grid-template-rows: auto;
     grid-gap: 3px;
     box-sizing: border-box;
-
 }
 
 
@@ -163,7 +162,7 @@ a {
     border: 5px solid black;
     list-style: none;
     padding: 50px;
-    
+    border-radius: 50%;
 }
 
 /*.manager-name {
